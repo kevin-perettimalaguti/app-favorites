@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{    
+    background-image: url(images/image\ fond\ twitch\ 1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1500px;
+    margin: auto;    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    transition: transform 0.5s ease;     
+}
+
+a:hover {
+    color: blue;     
+}
+
+ .présentation-twitch .mesappfav a:hover .cursor {
+    transform: scale(1.5);
+    background-color: #00ff00;   
+    
+}
+
+img {
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.mesappfav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: burlywood;
+    transition: transform 0.5s ease;
+    margin-top: 30px;
+    padding: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.accueil {
+    font-size: 25px;
+}
+
+.titre {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logoapp1 {
+    width: 180px;
+    height: 100px;
+}
+
+.logoapp2 {
+    width: 160px;
+    height: 80px;
+}
+
+.logoapp3 {
+    width: 180px;
+    height: 105px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 60px;    
+    color: black;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+
+.logotwitch {
+    width: 300px;
+    height: 280px;
+    display: flex;
+    align-items: center;    
+    margin: auto;    
+}
+
+.présentation-twitch,p 
+{
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 60px;
+    text-align: center;   
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.présentation-twitch,.capture-twitch
+{
+    width: 900px;
+    height: 450px;
+    display: flex;
+    align-items: center;    
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.présentation-twitch 
+{
+    border: solid 2px palevioletred;
+}
+
+.twitchtexte 
+{
+    color: palevioletred;   
+}
+
+.titretwitch 
+{
+    font-weight: 700;    
+    border-radius: 15px;
+    padding: 25px;
+    color: palevioletred;
+    border: solid 2px palevioletred;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.titredescription 
+{
+    color: palevioletred;
+}
+
+.descriptiontwitch 
+{
+    border: solid 2px palevioletred;
+}
+
+.livetwitch 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.streamers ul 
+{
+    margin-bottom: 650px;
+    margin-right: 60px;
+    background-color: pink;
+    padding-bottom: 120px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border: solid 2px whitesmoke;
+    border-radius: 20px;
+    margin-left: 25px;    
+} 
+
+.vertical-hr {
+    border: none;
+    border-left: 2px solid black;
+    height: 100px;
+    margin: 0 10px;
+}
+
+.imgfindelive 
+{
+    transform: scale(1) !important; 
+    margin: auto;
+    height: 420px;
+    width: 940px;
+    margin-top: 0;
+    
+}
+
+.viewer-list
+{
+    margin-right: 40px;
+    margin-bottom: 130px;
+    background-color: whitesmoke;
+    border: solid 2px whitesmoke;
+    border-radius: 20px;
+    padding: 15px;
+    padding-right: 15px;    
+    margin-left: 10px;  
+}
+
+.lechat 
+{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.nomstreamer 
+{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.letitre 
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.react-button {
+    background-color: #3498db;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 400px;
+    margin-right: 30px;    
+}
+
+.follow-button {
+    background-color: #e74c3c;
+    color: #fff;
+    margin-top: 15px;
+    margin-right: 30px;    
+}
+
+.subscribe-button {
+    background-color: #2ecc71;
+    color: #fff;
+    margin-top: 15px;        
+}
+
+.livetwitch {
+    position: relative;
+}
+
+hr {
+    position: absolute;
+    height: 100%;
+    border: none;
+    border-left: 2px solid black;
+    margin: 0;
+}
+
+.streamers {
+    margin-right: 10px; 
+}
+
+.imgfindelive {
+    margin-top: -450px;
+    margin-bottom: 0;
+}
+
+.pseudos 
+{
+   text-align: left;
+   margin-bottom: 40px;
+   font-size: 20px;
+   background-color: rgb(247, 247, 248);
+   border: solid 2px rgb(247, 247, 248);
+   border-radius: 20px;
+   padding: 5px;  
+}
+
+.viewer 
+{
+    font-weight: 600;
+}
+
+footer {
+    background-color: pink;
+    color: white;     
+    text-align: center;
+    padding-top: 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
