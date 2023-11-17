@@ -29,6 +29,7 @@ a:hover .cursor {
 
 img {
     transition: transform 0.5s ease;
+    flex-wrap: wrap;
 }
 
 img:hover {
@@ -44,6 +45,8 @@ img:hover {
     font-size: 30px;
     background-color: burlywood;
     transition: transform 0.5s ease;
+    margin-top: 30px;
+    flex-wrap: wrap;
 }
 
 .accueil {
@@ -76,6 +79,7 @@ h1 {
     font-size: 50px;
     font-weight: 800;
     margin-top: 60px;
+    margin-bottom: 40px;
     color: black;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
@@ -98,7 +102,7 @@ h1 {
     font-size: 22px;
 }
 
-.présentation-youtube,
+.presentation-youtube 
 p {
     font-size: 20px;
     font-family: monospace;
@@ -108,7 +112,17 @@ p {
     padding: 20px;
 }
 
-.présentation-youtube,
+.presentation-youtube 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.presentation-youtube,
 .capture-youtube {
     width: 900px;
     height: 450px;
@@ -117,6 +131,11 @@ p {
     margin: auto;
     flex-wrap: wrap;
     margin-top: 60px;
+}
+
+.capture-youtube 
+{
+    flex-wrap: wrap;
 }
 
 .youtubetexte {
@@ -146,7 +165,9 @@ p {
     margin-bottom: 0%;
     width: 1100px;
     height: auto;
+    flex-wrap: wrap;
 }
+
 
 .presentationcategories {
     max-width: 1300px;
@@ -236,7 +257,9 @@ h2 {
     padding-bottom: -5px;
     padding-top: -10px;
     font-size: 18px;
+    flex-wrap: wrap;
 }
+
 
 .logoytbmusic {
     width: 450px;
@@ -245,10 +268,12 @@ h2 {
 
 footer {
     background-color: red;
-    color: white;     
+    color: white;
     text-align: center;
-    padding-top: 0;
+    padding: 10px;
     border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
 
 .footer-container {
